@@ -36,8 +36,26 @@
 
     (예시) 스페인산 다랑어를 수입하여, 한국에서 스테이크용으로 절단 가공한 후 다시 EU로 수출하는 경우, 스페인산 다랑어는 외화획득용 원료임
 
+![image](https://user-images.githubusercontent.com/76906638/224447928-21089b09-ddad-4a22-9de8-d8140bd9ca4f.png)
+
 
 
 ### Modeling 
 
-  ① TimeSeries   
+  ① TimeSeries
+  target 값과 상관관계가 높은 열을 우선적으로 진행했으며 
+      from pmdarima import auto_arima
+      
+  Auto Arima 를 사용하여 2020년도 기준으로 2021년도 예측 진행 
+  
+  ① Pycarot
+      pip install pycaret
+      from pycaret.regression import *  
+  ![image](https://user-images.githubusercontent.com/76906638/224447317-91ab166c-6794-4503-bad0-fc2a4b4b9ef5.png)
+  
+  R2 기준으로 Overfitting 을 고려하여 Ada Regression 선택 
+  ![image](https://user-images.githubusercontent.com/76906638/224447510-4585d963-a348-4e52-9b01-c566f053d64b.png)
+  
+  2021년도 어종별 중량 데이터 활용하여 비교 결과 Regression 방법이 실제 데이터와 비슷함을 확
+
+
