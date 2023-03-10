@@ -57,6 +57,8 @@
   ![image](https://user-images.githubusercontent.com/76906638/224447317-91ab166c-6794-4503-bad0-fc2a4b4b9ef5.png)
   
   R2 기준으로 Overfitting 을 고려하여 Ada Regression 선택 
+  ![image](https://user-images.githubusercontent.com/76906638/224448726-1ddd6031-7553-43c2-8666-c566b9e9bad9.png)
+
   ![image](https://user-images.githubusercontent.com/76906638/224447510-4585d963-a348-4e52-9b01-c566f053d64b.png)
   
   2021년도 어종별 중량 데이터 활용하여 비교 결과 Regression 방법이 실제 데이터와 비슷함을 확
