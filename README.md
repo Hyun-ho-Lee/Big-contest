@@ -44,13 +44,16 @@
 
   ① TimeSeries
   target 값과 상관관계가 높은 열을 우선적으로 진행했으며 
+      
       from pmdarima import auto_arima
       
   Auto Arima 를 사용하여 2020년도 기준으로 2021년도 예측 진행 
   
   ① Pycarot
+      
       pip install pycaret
       from pycaret.regression import *  
+  
   ![image](https://user-images.githubusercontent.com/76906638/224447317-91ab166c-6794-4503-bad0-fc2a4b4b9ef5.png)
   
   R2 기준으로 Overfitting 을 고려하여 Ada Regression 선택 
