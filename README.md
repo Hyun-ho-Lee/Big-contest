@@ -1,5 +1,16 @@
 ## 수산물 가격 예측 
 
+
+## Requirements
+- python >= 3.7
+- pytorch >= 1.10
+- transformers == 4.19.2
+- nltk
+- tqdm
+- numpy
+- pandas
+- pycaret 
+
 1. 가격 예측시, 수입용도, 수입형태 등 제공데이터와 동일하게 세분화하여 제출
 
  - 상세 어종별 평균단가를 예측하시면 됩니다.
